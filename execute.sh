@@ -29,16 +29,18 @@ for batch in  $@; do
 	mv $NAME batch_params.xml
 	
 	echo "sh /opt/repast/repast.sh"
-	bash /opt/repast/repast.sh
-	echo "NAME2:" $NAME
-	OUTPUT=out_${NAME}.tar
-	echo "OUTPUT:" $OUTPUT
-	#echo "upload outpout"
-	ls 
+	retn_value=$(bash /opt/repast/repast.sh)
+	if [ retn_value = "0" ]; then
+		echo "NAME2:" $NAME
+		OUTPUT=out_${NAME}.tar
+		echo "OUTPUT:" $OUTPUT
+		#echo "upload outpout"
         mv output.tar $OUTPUT
-        ls
- 	curl -T $OUTPUT $OUTDIR --user $USERNAME:$PASSWORD
-	rm $OUTPUT
-	echo "clean output"
+ 		curl -T $OUTPUT $OUTDIR --user $USERNAME:$PASSWORD
+		rm $OUTPUT
+		echo "clean output"
+	else
+		exit 1
+	fi
 
 done
