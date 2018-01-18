@@ -30,7 +30,6 @@ for batch in  $@; do
 	
 	echo "bash /opt/repast/repast.sh"
 	bash /opt/repast/repast.sh
-	bash test.sh
 	retn_code=$?
 	if [ $retn_code = "0" ]; then
 		echo "NAME2:" $NAME
