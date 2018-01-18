@@ -28,9 +28,11 @@ for batch in  $@; do
 	#NAME=$batch
 	mv $NAME batch_params.xml
 	
-	echo "sh /opt/repast/repast.sh"
-	retn_value=$(bash /opt/repast/repast.sh)
-	if [ $retn_value = "0" ]; then
+	echo "bash /opt/repast/repast.sh"
+	bash /opt/repast/repast.sh
+	bash test.sh
+	retn_code=$?
+	if [ $retn_code = "0" ]; then
 		echo "NAME2:" $NAME
 		OUTPUT=out_${NAME}.tar
 		echo "OUTPUT:" $OUTPUT
@@ -41,9 +43,8 @@ for batch in  $@; do
 		echo "clean output"
 	else
 		echo "*************************************"
-		echo "An Error happened : " $retn_value
+		echo "An Error happened : " $retn_code
 		echo "*************************************"
-		exit $retn_value
+		exit $retn_code
 	fi
-
 done
