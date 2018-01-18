@@ -30,7 +30,7 @@ for batch in  $@; do
 	
 	echo "sh /opt/repast/repast.sh"
 	retn_value=$(bash /opt/repast/repast.sh)
-	if [ retn_value = "0" ]; then
+	if [ $retn_value = "0" ]; then
 		echo "NAME2:" $NAME
 		OUTPUT=out_${NAME}.tar
 		echo "OUTPUT:" $OUTPUT
@@ -40,7 +40,10 @@ for batch in  $@; do
 		rm $OUTPUT
 		echo "clean output"
 	else
-		exit 1
+		echo "*************************************"
+		echo "An Error happened : " $retn_value
+		echo "*************************************"
+		exit $retn_value
 	fi
 
 done
