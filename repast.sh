@@ -93,6 +93,7 @@ INSTALLATION=/opt/repast
 ROOTA=$INSTALLATION/RepastTest2/MyModels
 PLUGINS=$ROOTA/plugins
 
+echo "SRCDIR: " $SRCDIR >> loggg
 # Model directories
 
 #if [ $# -ne 1 ]; then
