@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: repast.simphony.data
+Bundle-Version: 2.1.0
+Bundle-ClassPath: bin/
+Bundle-Localization: plugin
+Export-Package: repast.simphony.data2,
+ repast.simphony.data2.builder,
+ repast.simphony.data2.engine,
+ repast.simphony.data2.util
+Require-Bundle: repast.simphony.core,
+ repast.simphony.scenario,
+ repast.simphony.runtime,
+ org.junit
+Bundle-Vendor: %providerName
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
