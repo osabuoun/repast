@@ -1,0 +1,223 @@
+{
+    "image_url": "osabuoun/repast",
+    "replica_max": "10",
+    "experiment_deadline": "15#m",
+    "reserve_cpu": "0.3",
+    "reserve_memory": "400mb",
+    "replica_min": "1",
+    "params": [],
+    "single_task_duration": "2#m",
+    "command": [],
+    "jobs": [
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_0"
+                    ],
+                    "id": "task_id_0",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_0",
+            "command": []
+        },
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_1"
+                    ],
+                    "id": "task_id_1",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_1",
+            "command": []
+        },
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_10"
+                    ],
+                    "id": "task_id_2",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_2",
+            "command": []
+        },
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_100"
+                    ],
+                    "id": "task_id_3",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_3",
+            "command": []
+        },
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_101"
+                    ],
+                    "id": "task_id_4",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_4",
+            "command": []
+        },
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_102"
+                    ],
+                    "id": "task_id_5",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_5",
+            "command": []
+        },
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_103"
+                    ],
+                    "id": "task_id_6",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_6",
+            "command": []
+        },
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_104"
+                    ],
+                    "id": "task_id_7",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_7",
+            "command": []
+        },
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_105"
+                    ],
+                    "id": "task_id_8",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_8",
+            "command": []
+        },
+        {
+            "data": [],
+            "tasks": [
+                {
+                    "data": [
+                        "repast",
+                        "repast_test_123258",
+                        "ftp://jobserver.hopto.org/repast/exp_wm_01/output/",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/model.tar",
+                        "http://jobserver.hopto.org/repast/exp_wm_01/input/batch_params.xml_106"
+                    ],
+                    "id": "task_id_9",
+                    "command": [
+                        "/opt/execute.sh"
+                    ]
+                }
+            ],
+            "params": [],
+            "id": "job_id_9",
+            "command": []
+        },
+    ]
+}
